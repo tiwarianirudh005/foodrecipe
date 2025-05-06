@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="instruction.css">
+</head>
+
+<body>
+        <!-- Header (Navbar) -->
+        <header class="header">
+            <div class="logo">
+                <img src="assets/4tpibz-LogoMakr.png" alt="Dishcovery">
+            </div>
+    
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a class="category" href="#">Categories</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+    
+            <div class="search-box">
+                <input type="text" id="dish" placeholder="Search recipes...">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+    
+            <button class="cta-btn">Sign Up</button>
+        </header>
+    
+    <div class="container">
+        <h1 id="recipeTitle"></h1>
+        <img src="" alt="Recipe Image" id="recipeImage">
+        <div class="ingredients">
+            <h2>Ingredients</h2>
+            <p id="recipeIngredients"></p>
+        </div>
+        <div class="instructions">
+            <h2>Instructions</h2>
+            <p>Step-by-step cooking instructions go here...</p>
+            <p id="recipeInstructions"></p>
+        </div>
+        <button class="save-btn">Save Recipe</button>
+    </div>
+
+    <script src="instruction.js"></script>
+
+</body>
+
+</html>
